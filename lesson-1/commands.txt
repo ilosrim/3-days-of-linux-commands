@@ -1,0 +1,26 @@
+	/ = root
+	/home
+	/home/ilosrim
+
+///
+1. pwd = navigation
+2. cd 
+3. mkdir (add folder)
+4. rm -r (remove folder / remove file)
+5. touch (add file)
+6. ls -l
+7. cp (copy)
+8. mv (move)
+9. less
+10. more
+11. nano
+12. cat
+13. echo
+14. head
+15. tail
+16. add and update sources lists
+	1)add sources list ~ nano /etc/apt/sources.list / deb https://abc.com
+	2)sudo apt-get update
+	3)sudo apt-get install ...
+	4)sudo apt-get upgrade ...
+	5)sudo apt-get remove ...

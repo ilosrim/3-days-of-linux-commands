@@ -1,0 +1,57 @@
+	/ = root
+	/home
+	/home/ilosrim
+
+///lesson-1
+1. pwd = navigation
+2. cd 
+3. mkdir (add folder)
+4. rm -r (remove folder / remove file)
+5. touch (add file)
+6. ls -l
+7. cp (copy)
+8. mv (move)
+9. less
+10. more
+11. nano
+12. cat
+13. echo
+14. head
+15. tail
+16. add and update sources lists
+	1)add sources list ~ nano /etc/apt/sources.list / deb https://abc.com
+	2)sudo apt-get update
+	3)sudo apt-get install ...
+	4)sudo apt-get upgrade ...
+	5)sudo apt-get remove ...
+
+//lesson-2
+1. ssh
+2. grep
+3. echo
+4. sort
+5. passwd
+6. shadow
+7. passwd {user}
+8. whoami
+9. where
+10. /etc/skel/
+11. useradd -m {user}
+12. userdel (-r) {user}
+13. usermod -aG sudo {user}
+14. id {user}
+15. chown {with whom} {what}
+16. chgrp {with whom} {what}
+17. chmod (users, groups, other, all)+(rwx) {file}
+	
+	~$ sudo chmod file.txt 777
+	
+	r=4
+	w=6
+	x=1
+
+	rwx --- --- 700
+	--- rwx --- 070
+	--- --- rwx 007
+
+18. +t (stickbit)
