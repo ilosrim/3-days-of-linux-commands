@@ -3,4 +3,4 @@
 echo "Hello World"
 
 sleep 2
-ping 192.168.43.67
+ping 192.168.43.210
